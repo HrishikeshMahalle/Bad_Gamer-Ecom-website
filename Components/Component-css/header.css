@@ -1,0 +1,37 @@
+
+.header {
+    height: 7vh;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 5px 1px #ccc;
+    background-color: red;
+  }
+.header__left a{
+    all: unset;
+}
+  
+.header__left {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+  }
+  
+.header__right {
+    margin-left: auto;
+  }
+  
+.header__right a {
+    font-size: 2rem;
+    margin: 0 0.625rem;
+  }
+
+
+@media screen and (max-width:920px) {
+    .center{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
